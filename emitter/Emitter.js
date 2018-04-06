@@ -76,3 +76,5 @@ emitter.emit('applaud');
 emitter.off('applaud', yell);
 emitter.emit('applaud');
 emitter.emit('strange');
+
+export default Emitter;
